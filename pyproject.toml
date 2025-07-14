@@ -1,0 +1,26 @@
+[project]
+name = "endtoendrag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ["fastapi",
+                "uvicorn",
+
+                "langchain",
+                "langchain_community",
+                "langchain-groq",
+                "langchain-google-genai",
+                "langchain-chroma",
+                "langchain-core",
+                "pypdf",     
+
+                "docx2txt",
+                "python-dotenv",
+
+                "python-jose[cryptography]",
+                "python-multipart",
+                "py-grpc-prometheus",
+                "prometheus-client",
+                "psutil"
+        ]

@@ -1,0 +1,11 @@
+# Ignore env and unnecessary files
+.env
+*.log
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.lock
+sample_docs/
+chroma_db/
